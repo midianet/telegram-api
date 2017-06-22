@@ -1,22 +1,23 @@
-# Padrão de criação de Bots do telegram para Goiás : Implementações de Referência utilizando a tecnologia Java
+# Padrão de criação de Bots do telegram do Estado de Goiás
+
+# Implementações de Referência em Java
 
 ## Documentação
-[API Telegram 2.0]	
-[Guia de implementação](https://github.com/goias/telegram-goias/blob/master/telegram-guide-doc/guide.odt?raw=true)
+[API Telegram 2.0](https://core.telegram.org/bots/api).
 		
-## Samples
-
-### Java		
-
 #### Principais Tecnologias
 
-SpringBoot, Java 8, javaslang, Lombok, Telegram-api
+SpringBoot, Java 8
 
 #### SpringBoot
+Uma das formas mais indicadas de implementar um bot é usando uma arquitetura de microserviço onde o Spring Boot se mostra como uma  uma das alternativas de framework seja 
 
-SpringBoot...
+O Spring Boot é um projeto da Spring que veio para facilitar o processo de configuração e publicação de nossas aplicações. A intenção é ter o seu projeto rodando o mais rápido possível e sem complicação.
+Ele consegue isso favorecendo a convenção sobre a configuração. Basta que você diga pra ele quais módulos deseja utilizar (WEB, Template, Persistência, Segurança, etc.) que ele vai reconhecer e configurar.
+Você escolhe os módulos que deseja através dos starters que inclui no pom.xml do seu projeto. Eles, basicamente, são dependências que agrupam outras dependências. Inclusive, como temos esse grupo de dependências representadas pelo starter, nosso pom.xml acaba por ficar mais organizado.
+Apesar do Spring Boot, através da convenção, já deixar tudo configurado, nada impede que você crie as suas customizações caso sejam necessárias.
+O maior benefício do Spring Boot é que ele nos deixa mais livres para pensarmos nas regras de negócio da nossa aplicação.
 
-#### Telegram-api 2.0
 
 A implementação da especificação utilizada foi a especificão da API 2.0, que fornece um conjunto de métodos.
 
